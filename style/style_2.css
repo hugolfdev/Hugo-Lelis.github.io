@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Turret+Road:wght@200&family=Vampiro+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#4F4F4F;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #363636;
+}
+header h1{
+    float: left;
+    margin: 10px 0 10px 50px;
+    color:#A9A9A9 ;
+}
+header ul{
+    list-style: none;
+    float:right;
+    margin: 25px 35px 10px 10px;
+}
+header ul li {
+    display: inline;
+    margin-left:15px ;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #A9A9A9;
+    letter-spacing: 1px;
+}
+li a {
+    color:#A9A9A9;
+    text-decoration: none;
+}
+
+#princ{
+    display: inline-block;
+    padding: 10px;
+    margin: 30px 10px 10px 50px;
+}
+
+
+#princ div{
+    float: left;
+    margin-left:3%;
+}
+
+#princ div a{
+    color:#767676 ;
+}
+
+#princ a:hover{
+    color:#ffffff;
+}
+
+#princ #html a:active{
+    color:#ffa500;
+}
+
+#princ #css a:active{
+    color:#87cefa;
+}
+
+#princ #js a:active{
+    color:#ffff00;
+}
+
+button{
+    padding: 10px;
+    margin: 70px 0 0 25px;
+    background: transparent;
+    border:2px solid #223675;
+    border-radius: 10px;
+    outline: none;
+}
+button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #223675;
+    
+}
+
+

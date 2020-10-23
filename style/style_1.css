@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#4F4F4F;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #363636;
+}
+header h1{
+    float: left;
+    margin: 10px 0 10px 50px;
+    color:#A9A9A9 ;
+}
+header ul{
+    list-style: none;
+    float:right;
+    margin: 25px 35px 10px 10px;
+}
+header ul li {
+    display: inline;
+    margin-left:15px ;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #A9A9A9;
+    letter-spacing: 1px;
+}
+li >a {
+    color:#A9A9A9;
+    text-decoration: none;
+}
+nav{
+    margin: 50px 0 0 100px;
+}
+nav p{
+    font-size: 40px;
+}
+nav .intro_2{
+    color:#223675;
+    font-family: 'Lobster', cursive;
+}
+
+nav .intro_3{
+    font-family: 'Indie Flower', cursive;
+}
+nav .intro_4{
+    color:#A9A9A9 ;
+    font-size: 19px;
+}
+
+nav button{
+    padding: 10px;
+    margin: 70px 0 0 25px;
+    background: transparent;
+    border:2px solid #223675;
+    border-radius: 10px;
+    outline: none;
+}
+nav button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #223675;
+    outline: none;
+}
