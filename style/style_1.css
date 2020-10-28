@@ -68,3 +68,83 @@ nav button a{
     color: #223675;
     outline: none;
 }
+ 
+
+
+
+/* Parte responsiva  */
+@media only screen and (max-width: 600px){
+    body{
+        background-color:#091116;
+    }
+
+    header{
+        width: 100%;
+        height: 50px;
+        background-color: #363636;
+    }
+
+    header h1{
+        float: left;
+        margin: 2px 0 8px 10px;
+        color:#A9A9A9 ;
+        font-family: 'Lobster', cursive;
+        font-weight: 300;
+    }
+
+    header ul{
+        list-style: none;
+        float:right;
+        margin: 18px 5px 10px 0;
+    }
+
+    header ul li {
+        display: inline;
+        margin-left:5px ;
+        padding: 2px;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: #2b5480;
+        letter-spacing: .5px;
+    }
+
+    li >a {
+        color:#2b5480;
+        text-decoration: none;
+    }
+
+    nav{
+        margin: 50px 0 0 50px;
+    }
+
+    nav .intro{
+        color: #f4f4c3;
+    }
+
+    nav .intro_2{
+        color:#223675;
+        font-family: 'Lobster', cursive;
+    }
+
+    nav .intro_3{
+        font-family: 'Indie Flower', cursive;
+        color: #f4f4c3;
+    }
+
+    nav button{
+        padding: 15px;
+        margin: 50px 0 0 55px;
+        background: transparent;
+        border:2px solid #11237e;
+        border-radius: 50px;
+        outline: none;
+    }
+
+    nav button a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #11237e;
+        outline: none;
+    }
+}
