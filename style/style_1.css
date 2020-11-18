@@ -4,17 +4,17 @@
     padding: 0;
 }
 body{
-    background-color:#4F4F4F;
+    background-color:#0a0200;
 }
 header{
     width: 100%;
     height: 70px;
-    background-color: #363636;
+    background-color: #bf5700;
 }
 header h1{
     float: left;
     margin: 10px 0 10px 50px;
-    color:#A9A9A9 ;
+    color:#6d1006;
 }
 header ul{
     list-style: none;
@@ -32,7 +32,7 @@ header ul li {
     letter-spacing: 1px;
 }
 li >a {
-    color:#A9A9A9;
+    color: #fae7a3;
     text-decoration: none;
 }
 nav{
@@ -47,10 +47,11 @@ nav .intro_2{
 }
 
 nav .intro_3{
+    color: #ffebb4 ;
     font-family: 'Indie Flower', cursive;
 }
-nav .intro_4{
-    color:#A9A9A9 ;
+nav .intro_4,.intro{
+    color:#ffebb4 ;
     font-size: 19px;
 }
 
@@ -58,14 +59,14 @@ nav button{
     padding: 10px;
     margin: 70px 0 0 25px;
     background: transparent;
-    border:2px solid #223675;
+    border:2px solid #be5707;
     border-radius: 10px;
     outline: none;
 }
 nav button a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #223675;
+    color: #be5707;
     outline: none;
 }
  
@@ -75,13 +76,13 @@ nav button a{
 /* Parte responsiva  */
 @media only screen and (max-width: 600px){
     body{
-        background-color:#091116;
+        background-color:#001900;
     }
 
     header{
         width: 100%;
         height: 50px;
-        background-color: #363636;
+        background-color: #be5707;
     }
 
     header h1{
@@ -105,7 +106,7 @@ nav button a{
         text-transform: uppercase;
         font-family: sans-serif;
         font-weight: 700;
-        color: #2b5480;
+        color: #000000;
         letter-spacing: .5px;
     }
 
@@ -136,7 +137,7 @@ nav button a{
         padding: 15px;
         margin: 50px 0 0 55px;
         background: transparent;
-        border:2px solid #11237e;
+        border:2px solid #FFFFFF;
         border-radius: 50px;
         outline: none;
     }
@@ -144,7 +145,7 @@ nav button a{
     nav button a{
         text-decoration: none;
         text-transform: uppercase;
-        color: #11237e;
+        color: #FFFFFF;
         outline: none;
     }
 }

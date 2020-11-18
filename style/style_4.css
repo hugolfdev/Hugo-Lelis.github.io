@@ -4,17 +4,17 @@
 }
 
 body{
-    background-color:#4F4F4F;
+    background-color:#0a0200;
 }
 header{
     width: 100%;
     height: 70px;
-    background-color: #363636;
+    background-color: #bf5700;
 }
 header h1{
     float: left;
     margin: 10px 0 10px 50px;
-    color:#A9A9A9 ;
+    color:#6d1006;
 }
 header ul{
     list-style: none;
@@ -31,8 +31,8 @@ header ul li {
     color: #A9A9A9;
     letter-spacing: 1px;
 }
- a {
-    color:#A9A9A9;
+ul  a {
+    color: #fae7a3;
     text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ form{
 
 form label{
     text-transform: uppercase;
-    
+    color: #fae7a3;
 }
 
 form input{
@@ -63,12 +63,12 @@ form textarea{
 
 form button{
     padding: 15px;
-    width: 182.64px;
+    width: 190px;
     border-radius:  0 0 15px 15px;
-    border:2px solid #223675;
+    border:2px solid#be5707;
     background: transparent;
     text-transform: uppercase;
-    color: #223675 ;
+    color:#be5707 ;
     outline: none;
 }
 
