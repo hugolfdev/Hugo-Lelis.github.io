@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" href="img/favicon_4.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/style_4.css">
     <title>Contato</title>
@@ -18,15 +18,17 @@
             </ul>
         </div>
     </header>
-    <!-- add um script de envio de formulario para o e-mail -->
-    <form action="#" method="post">
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="E-mail">
-        <label for="nome" >Nome:</label>
+    <!-- add um script de Validaçao de formulario para o e-mail -->
+    <form name="myform" action="index_4.html" method="post"  onsubmit="return validateform()" >
+        <label for="email" required>Email:</label>
+        <input type="email" name="email" id="email" placeholder="E-mail" onblur="emailvalido(f1.email)">
+        <label for="nome" required>Nome:</label>
         <input type="text" name="nome" id="nome" placeholder="Nome">
-        <label for="mgs-user">Digite oque precisa:</label>
-        <textarea name="mgs-user" id="mgs-user" cols="22" rows="10" placeholder="Digite oque necessita"></textarea>
-        <button type="submit" disabled>Enviar Email</button>
+        <label for="mgs-user" required>Digite oque precisa:</label>
+        <textarea name="mgs_user" id="mgs_user" cols="22" rows="10" placeholder="Digite oque necessita"></textarea>
+        <button type="submit"> Enviar Email</button>
     </form>
+
+    <script src="js/script_2.js"></script>
 </body>
 </html>
