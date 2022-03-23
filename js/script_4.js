@@ -3,14 +3,14 @@ window.onload = function(){setInterval("trocaCor()", 400);}
 
 function trocaCor(){
     var pisca = document.querySelector("#tec");
-    if(pisca.style.color == "red")
+    if(pisca.style.color == "blue")
     {
     pisca.style.color = "white";
     setTimeout("trocaCor();", 10000);
     }    
     else
     {
-    pisca.style.color = "red";
+    pisca.style.color = "#b0eacd";
     setTimeout("trocaCor();", 10000);
     }
 }

@@ -5,17 +5,17 @@
 
 
 body{
-    background-color:#0a0200;
+    background-color:white;
 }
 header{
     width: 100%;
     height: 70px;
-    background-color: #7f7f7f;
+    background-color: #5c5470;
 }
 header h1{
     float: left;
     margin: 10px 0 10px 50px;
-    color:#6d1006;
+    color:#dbd8e3;
 }
 header ul{
     list-style: none;
@@ -30,12 +30,12 @@ header  li{
     text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 900;
-    color: #6d1006;
+    color: #dbd8e3;
     letter-spacing: 1px;
 }
 
 ul a {
-    color:#6d1006;
+    color:#dbd8e3;
     text-decoration: none;
 }
 
@@ -43,16 +43,20 @@ ul a {
 
 #primeiro{
     margin: auto;
-    width: 79Vw;
+    width: 69.9%;
     height:auto;
     overflow:hidden;
-    background-color: #242424;
+    background-color: #d6e4f0;
 }
 
 .segundo{
     width: 250px;
     height:250px;
-    background-color: floralwhite;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    background: transparent;
     margin: 10px 5px 10px 10px;
     float: left;  
 

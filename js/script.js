@@ -16,12 +16,14 @@ function mudarCor(){
     return 0;
    
     if(entrada == ""){
-        saida.textContent="Olá"
+        entrada = visitante;
+        saida.textContent="olá",entrada;
         return 0;
     };
 
     if(entrada == null){
-        saida.textContent="Olá"
+        entrada = visitante;
+        saida.textContent="Olá",entrada;
         return 0;
     };
 })();
