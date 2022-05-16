@@ -39,7 +39,7 @@ nav{
     margin: 50px 0 0 100px;
 }
 nav p{
-    font-size: 40px;
+    font-size: 50px;
 }
 nav .intro_2{
     color:#5ea3a3;
@@ -51,7 +51,7 @@ nav .intro_3{
     font-family: 'Indie Flower', cursive;
 }
 nav .intro_4,.intro{
-    color:#ffebb4 ;
+    color:#333333;
     font-size: 19px;
 }
 

@@ -1,17 +1,17 @@
-window.onload = function(){setInterval("trocaCor()", 400);}
+window.onload = function(){setInterval("trocaCor()", 1000);}
 
 
 function trocaCor(){
     var pisca = document.querySelector("#tec");
-    if(pisca.style.color == "blue")
+    if(pisca.style.color == "orange")
     {
-    pisca.style.color = "white";
-    setTimeout("trocaCor();", 10000);
+    pisca.style.color = "gray";
+    setTimeout("trocaCor();", 1000);
     }    
     else
     {
-    pisca.style.color = "#b0eacd";
-    setTimeout("trocaCor();", 10000);
+    pisca.style.color = "orange";
+    setTimeout("trocaCor();", 1000);
     }
 }
 
